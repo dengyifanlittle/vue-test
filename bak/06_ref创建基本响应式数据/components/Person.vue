@@ -10,7 +10,7 @@
     </div>
 </template>
 
-<script lang="ts" setup name="">
+<script lang="ts" setup name="aaa">
     import {ref} from 'vue'
     let name = ref('tom') // 不是响应式
     let age = ref(18)
