@@ -1,6 +1,6 @@
 <template>
     <h2 a="1+1" :b="1+1" c="x" :d="x">测试</h2>
-    <Person a="test" />
+    <Person a="test" :list="personList"/>
 </template>
 
 <script lang="ts" setup name="App">
